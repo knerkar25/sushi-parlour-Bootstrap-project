@@ -1,0 +1,268 @@
+* {
+  box-sizing: border-box;
+}
+body {
+    margin: 0;
+    font-family: 'Raleway', sans-serif;
+  }
+  .topnav {
+    overflow: hidden;
+    background-color:rgba(26, 153, 85,0.3);
+  }
+  
+  .topnav a {
+    float: left;
+    color: rgb(26, 153, 85);
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+    font-size: 15px;
+    font-weight: bold;
+  }
+  
+  .topnav a:hover {
+    background-color:#0f5731;
+    color: white;
+  }
+  
+  .topnav a.active {
+    background-color: #4CAF50;
+    color: white;
+  }
+  
+  .topnav-right {
+    float: right;
+  }
+  .hero-image {
+    position: relative;
+    height: 600px;
+    background: url(Images/i3.jpeg) no-repeat center;
+    background-size: cover;
+  }
+  .container {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    overflow: hidden;
+    text-align: center;
+    color: #f1f1f1;
+    font-weight: 700;
+    text-transform: uppercase;
+  }
+
+  .container h1 {
+    font-size: 40px;
+    letter-spacing: 0.2em;
+  }
+  .container h1 span {
+    border: 10px solid rgb(5, 41, 33);
+    padding: 6px 14px;
+    display: inline-block;
+    color: rgb(5, 41, 33);
+  }
+  .des {
+    margin: 20px;
+    display: block;
+    font-size: 28px;
+    letter-spacing: 0.2em;
+    text-shadow: 0 0 5px black;
+    color: rgb(5, 41, 33);
+  }
+  
+  .des2 {
+    margin: 10px;
+    display: block;
+    letter-spacing: 0.2em;
+    font-size: 28px;
+    text-shadow: 0 0 5px black;
+    color: rgb(5, 41, 33);
+    padding-bottom: 10px;
+  }
+  
+  .btn {
+    color: white;
+    padding-left: 10px;
+    padding-right: 8px;
+    padding-top: 8px;
+    padding-bottom: 15px;
+    letter-spacing: 0.2em;
+    font-size: 20px;
+    background-color: rgb(5, 41, 33);
+    text-decoration: none;
+    text-transform: uppercase;
+  
+    transition: 0.3s all;
+  }
+  .btn:hover {
+    opacity: 0.8;
+  }
+  /*=======Container One Finish ==========*/
+
+/*=======Container about Start==========*/
+
+.about-image {
+    position: relative;
+    height: 300px;
+    background: url(Images/i11.jpeg) no-repeat center;
+    background-size: cover;
+  }
+  
+  .container2 {
+    position: absolute;
+    top: 50%;
+    left: 45%;
+    transform: translate(-80%, -50%);
+    overflow: hidden;
+    text-align: center;
+    color: #f1f1f1;
+    font-weight: 700;
+    text-transform: uppercase;
+  }
+  
+  .container2 h2 {
+    font-size: 30px;
+    letter-spacing: 0.2em;
+    padding-bottom: 20px;
+  }
+  .container2 p {
+    margin-left: 40px;
+    font-size: 10px;
+    text-align: left;
+    font-weight: lighter;
+    letter-spacing: 0.2em;
+  }
+  .container2 h2 span {
+    padding: 6px 14px;
+    display: inline-block;
+    color: white;
+  }
+  /*=======Container about finish==========*/
+  #about1{
+    background-color:#3d3d29;
+    color:white;
+  }
+
+/*=======Container three Start==========*/
+.container3
+{ 
+  background-color:#3d3d29;
+    color: white;
+    position: relative;
+    text-align: center;
+}
+
+  /*=======Container three finish==========*/
+		.inner{	
+			color:white;
+			font-weight:bolder;
+			padding: 70px;
+			background-color:#1f1f14;
+		}
+		.outer{	
+			text-align:center;
+			color:lime;
+			font-weight:bolder;
+			background-color:black;
+		}
+		.letterdown{
+		margin-top:15px;
+		}
+
+  .container5
+{
+  text-align: center;
+    background-color:#2e2e1f;
+    color: white;
+    padding: 20px;
+    position: relative;
+    font-size: 20px;
+}
+
+.column {
+  float: left;
+  width: 50%;
+  padding: 10px;
+  height: auto; 
+}
+.container7
+{
+  text-align: left;
+  background-color:#2e2e1f;
+  font-size: 20px;
+  color:whitesmoke;
+  padding: 20px;
+}
+  /*========== BOOK HERE=====*/
+  #orderHere
+  {
+    color:slategrey;
+    background-color:rgba(0,0,0,0.8);
+  }
+
+  #orderHere1
+  {	 margin-bottom:3%;
+  }
+  .container8
+  {
+    background-color:#4d4d33;
+  }
+  .container9
+  {
+    background-color:#2e2e1f;
+    text-align: center;
+    color: white;
+    padding-bottom:5% ;
+  }
+  .fa {
+    padding: 10px;
+    font-size: 100px;
+    width: 40px;
+    text-align: center;
+    text-decoration: none;
+    margin: 3px 5px;
+    border-radius: 50%;
+  }
+  
+  .fa:hover {
+      opacity: 0.7;
+  }
+  
+  .fa-facebook {
+    background: white;
+    color: #2e2e1f;
+  }
+  
+  .fa-twitter {
+    background: white;
+    color: #2e2e1f;
+  }
+  
+  .fa-google {
+    background: white;
+    color: #2e2e1f;
+  }
+  
+  .fa-linkedin {
+    background: white;
+    color: #2e2e1f;
+  }
+  
+  
+  .fa-instagram {
+    background: white;
+    color: #2e2e1f;
+  }
+  
+  .fa-pinterest {
+    background: white;
+    color: #2e2e1f;
+  }
+
+  .container10
+  {
+    background-color:#4d4d33;
+    color:white;
+
+    padding-bottom: 50px;
+  }
